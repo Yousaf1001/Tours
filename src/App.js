@@ -1,5 +1,5 @@
 import React from "react";
-import Title from "./Components/Title";
+import HeadTitle from "./Components/HeadTitle";
 import paris from "./Images/Paris.jpg";
 import Irland from "./Images/Irland.jpg";
 import Poland from "./Images/Poland.jpg";
@@ -76,6 +76,9 @@ const App = () => {
       buttonText: "Not Interested",
     },
   ];
-  return <Title></Title>;
+  return (<div>
+              <HeadTitle></HeadTitle>
+              <h1>{ToursInformation.title}</h1>
+          </div>);
 };
 export default App;

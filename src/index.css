@@ -13,6 +13,8 @@ html {
 body {
   margin-top: 6%;
   background-color:#f8fafc;
+  display: flex;
+  justify-content: center;
 
 }
 /* @media screen and (max-width:600px) {

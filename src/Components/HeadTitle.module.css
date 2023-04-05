@@ -1,0 +1,7 @@
+.head_Content{
+    border: 1px solid black;
+}
+/*  Classes for Setting border of Tours using another element   */
+.border_set{
+   border: 2px solid #65d1ae;
+}
